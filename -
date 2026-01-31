@@ -1,0 +1,334 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.35:3000
+
+✓ Starting...
+✓ Ready in 2s
+○ Compiling / ...
+ GET / 200 in 8.7s (compile: 7.9s, render: 742ms)
+
+thread 'tokio-runtime-worker' (17809) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for FileContent::parse_json (TaskId 145615))
+
+Caused by:
+    0: Looking up data for TaskId 145615 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000014.sst
+    3: No such file or directory (os error 2)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'tokio-runtime-worker' (17829) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 145767))
+
+Caused by:
+    0: Looking up data for TaskId 145767 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17809) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for ResolveResult::with_replaced_request_key_pattern (TaskId 145787))
+
+Caused by:
+    0: Looking up data for TaskId 145787 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18041) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 145871))
+
+Caused by:
+    0: Looking up data for TaskId 145871 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 145953))
+
+Caused by:
+    0: Looking up data for TaskId 145953 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 146008))
+
+Caused by:
+    0: Looking up data for TaskId 146008 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17809) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 146018))
+
+Caused by:
+    0: Looking up data for TaskId 146018 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for FileContent::parse_json (TaskId 146096))
+
+Caused by:
+    0: Looking up data for TaskId 146096 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for read_matches (TaskId 146115))
+
+Caused by:
+    0: Looking up data for TaskId 146115 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000012.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for ReferencedAsset::from_resolve_result (TaskId 146338))
+
+Caused by:
+    0: Looking up data for TaskId 146338 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17809) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 146379))
+
+Caused by:
+    0: Looking up data for TaskId 146379 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 146425))
+
+Caused by:
+    0: Looking up data for TaskId 146425 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18041) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 146590))
+
+Caused by:
+    0: Looking up data for TaskId 146590 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for ModuleResolveResult::primary_modules (TaskId 147117))
+
+Caused by:
+    0: Looking up data for TaskId 147117 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18046) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for <FileSystemPath as ValueToString>::to_string (TaskId 147196))
+
+Caused by:
+    0: Looking up data for TaskId 147196 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000011.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18046) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for request_to_string (TaskId 147367))
+
+Caused by:
+    0: Looking up data for TaskId 147367 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for <ModuleAssetContext as AssetContext>::process_resolve_result (TaskId 147724))
+
+Caused by:
+    0: Looking up data for TaskId 147724 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17829) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for ReferencedAsset::from_resolve_result (TaskId 147867))
+
+Caused by:
+    0: Looking up data for TaskId 147867 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17809) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for request_to_string (TaskId 147900))
+
+Caused by:
+    0: Looking up data for TaskId 147900 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18046) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for <FileSystemPath as ValueToString>::to_string (TaskId 148042))
+
+Caused by:
+    0: Looking up data for TaskId 148042 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18036) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for <ModuleAssetContext as AssetContext>::process_resolve_result (TaskId 148054))
+
+Caused by:
+    0: Looking up data for TaskId 148054 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for <ModuleAssetContext as AssetContext>::process_resolve_result (TaskId 148168))
+
+Caused by:
+    0: Looking up data for TaskId 148168 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18036) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for <FileSystemPath as ValueToString>::to_string (TaskId 148222))
+
+Caused by:
+    0: Looking up data for TaskId 148222 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000014.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17809) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for ReferencedAsset::from_resolve_result (TaskId 148445))
+
+Caused by:
+    0: Looking up data for TaskId 148445 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for ModuleResolveResult::primary_modules (TaskId 148455))
+
+Caused by:
+    0: Looking up data for TaskId 148455 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000013.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18036) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for Request::query (TaskId 148514))
+
+Caused by:
+    0: Looking up data for TaskId 148514 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18036) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for ResolveResult::is_unresolvable (TaskId 148521))
+
+Caused by:
+    0: Looking up data for TaskId 148521 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for <DiskFileSystem as FileSystem>::raw_read_dir (TaskId 148653))
+
+Caused by:
+    0: Looking up data for TaskId 148653 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18046) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for ModuleResolveResult::primary_modules (TaskId 148694))
+
+Caused by:
+    0: Looking up data for TaskId 148694 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000014.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18046) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for ModuleResolveResult::primary_modules (TaskId 149515))
+
+Caused by:
+    0: Looking up data for TaskId 149515 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000014.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for ModuleResolveResult::primary_modules (TaskId 149730))
+
+Caused by:
+    0: Looking up data for TaskId 149730 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000011.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18046) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for find_package (TaskId 149851))
+
+Caused by:
+    0: Looking up data for TaskId 149851 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (17829) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for ModuleResolveResult::primary_modules (TaskId 149971))
+
+Caused by:
+    0: Looking up data for TaskId 149971 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000011.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18043) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Meta for <ModuleAssetContext as AssetContext>::process_resolve_result (TaskId 150241))
+
+Caused by:
+    0: Looking up data for TaskId 150241 from database failed
+    1: Unable to open static sorted file referenced from 00000020.meta
+    2: Unable to open static sorted file 00000015.sst
+    3: No such file or directory (os error 2)
+
+thread 'tokio-runtime-worker' (18049) panicked at /build/turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs:156:17:
+Failed to restore task data (corrupted database or bug): Data for ModuleResolveResult::primary_modules (TaskId 150660))
+
+Caused by:
+    0: Looking up data for TaskId 150660 from database failed
+    1: Unable to open static sorted file referenced from 00000021.meta
+    2: Unable to open static sorted file 00000011.sst
+    3: No such file or directory (os error 2)
+Error: Turbopack build failed with 1 errors:
+./
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: /home/kindhuman/Downloads/workspace-50e75ae1-9838-4fe6-9ce6-9c25ccf57cd7
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h
